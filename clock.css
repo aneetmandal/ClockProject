@@ -1,0 +1,504 @@
+.main-container{
+    top: 0px;
+left: 0px;
+width: 1366px;
+height: 849px;
+background: var(--unnamed-color-3d087b) 0% 0% no-repeat padding-box;
+background: #3D087B 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.clock-icon-container{
+top: 50px;
+margin-left: 124px;
+width: 204px;
+height: 77px;
+background: transparent url('assets/clock_logo.png') no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.time-holder{
+top: 60px;
+left: 706px;
+width: 536px;
+height: 130px;
+background: var(--unnamed-color-ffffff) no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+position: relative;
+}
+
+.time-text{
+top: 40px;
+left:17px;
+width: 46px;
+height: 26px;
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope); */
+/* letter-spacing: var(--unnamed-character-spacing-0); */
+/* color: var(--unnamed-color-3d087b); */
+text-align: left;
+font: normal normal 400 20px/32px 'Space Grotesk';
+letter-spacing: 0px;
+color: #3D087B;
+text-transform: uppercase;
+opacity: 1;
+/* left: 745px;
+width: 46px;
+height: 26px; */
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope); */
+/* letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b); */
+text-align: left;
+/* font: normal normal 600 20px/32px Manrope; */
+letter-spacing: 0px;
+color: #3D087B;
+text-transform: uppercase;
+/* opacity: 1; */
+position: absolute;
+}
+
+.Hours{
+top: 20px;
+left: 90px;
+width: 80px;
+height: 90px;
+background: transparent url('assets/timer.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+z-index: 1;
+}
+
+#H-value{
+top: 10px;
+left: 18px;
+width: 33px;
+height: 18px;
+text-align: left;
+font: normal normal normal 40px/35px 'Space-Grotesk';
+letter-spacing: 0px;
+color: #8A11BF;
+opacity: 1;
+position: relative;
+}
+
+.H-text{
+    top: 35px;
+    left: 15px;
+    width: 56px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 23px/28px 'Space-Grotesk';
+    letter-spacing: 0px;
+    color: #5F0089;
+    opacity: 1;
+    position: relative;
+}
+
+.H-M-colon{
+top: -30px;
+left: 88px;
+width: 4px;
+height: 22px;
+font-size: 50px;
+color: #8A11BF;
+opacity: 1;
+position: relative;
+}
+
+.Minutes{
+top: 20px;
+left: 200px;
+width: 80px;
+height: 90px;
+background: transparent url('assets/timer.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+z-index: 1;
+}
+
+#M-value{
+    top: 10px;
+    left: 18px;
+    width: 33px;
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 40px/35px 'Space-Grotesk';
+    letter-spacing: 0px;
+    color: #8A11BF;
+    opacity: 1;
+    position: relative;
+    }
+
+
+.M-text{
+    top: 35px;
+    left: 17px;
+    width: 56px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 23px/28px 'Space-Grotesk';
+    letter-spacing: 0px;
+    color: #5F0089;
+    opacity: 1;
+    position: relative;
+}
+
+.M-S-colon{
+    top: -30px;
+    left: 88px;
+    width: 4px;
+    height: 22px;
+    font-size: 50px;
+    color: #8A11BF;
+    opacity: 1;
+    position: relative;
+    }
+
+.Seconds{
+top: 20px;
+left: 310px;
+width: 80px;
+height: 90px;
+background: transparent url('assets/timer.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+position: absolute;
+z-index: 1;
+}
+
+#S-value{
+    top: 10px;
+    left: 18px;
+    width: 33px;
+    height: 18px;
+    text-align: left;
+    font: normal normal normal 40px/35px 'Space-Grotesk';
+    letter-spacing: 0px;
+    color: #8A11BF;
+    opacity: 1;
+    position: relative;
+    }
+
+.S-text{
+    top: 35px;
+    left: 20px;
+    width: 56px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 23px/28px 'Space-Grotesk';
+    letter-spacing: 0px;
+    color: #5F0089;
+    opacity: 1;
+    position: relative;
+}
+
+.AM-PM{
+top: 20px;
+left: 420px;
+width: 82px;
+height: 90px;
+background: transparent url('assets/ampm.png') no-repeat padding-box;
+opacity: 1;
+position: absolute;
+z-index: 1;
+}
+
+#AM-PM-text{
+top: 20px;
+left: 8px;
+width: 48px;
+height: 43px;
+text-align: left;
+font: normal normal 100 40px/43px 'Space-Grotesk';
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+position: relative;
+}
+
+.timer-shadow1{
+top: 85px;
+left: 776px;
+width: 416px;
+height: 130px;
+/* background: var(--unnamed-color-ffffff) no-repeat padding-box; */
+background: #FFFFFF no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.71;
+position: absolute;
+margin: auto;
+/* z-index: -1; */
+}
+
+.timer-shadow2{
+top: 100px;
+left: 795px;
+width: 379px;
+height: 130px;
+/* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 0.22;
+position: absolute;
+margin: auto;
+}
+
+.time-quote{
+top: 110px;
+left: 706px;
+width: 536px;
+height: 118px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+position: relative;
+}
+
+.quotes{
+margin-top: 40px;
+margin-left: 21px;
+width: 542px;
+height: 55px;
+/* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-900) var(--unnamed-font-size-30)/40px var(--unnamed-font-family-bauhaus-hv-bt);
+letter-spacing: var(--unnamed-character-spacing-0); */
+/* color: var(--unnamed-color-8e53f0); */
+text-align: left;
+font: normal normal 900 30px/40px 'Space Grotesk';
+letter-spacing: 0px;
+color: #8E53F0;
+text-transform: uppercase;
+opacity: 1;
+/* position: relative; */
+}
+
+.timer-picture{
+top: 385px;
+left: 715px;
+width: 536px;
+height: 341px;
+background: transparent url('assets/morning.png') no-repeat padding-box;
+opacity: 1;
+position: absolute;
+}
+
+.time-panel{
+top: -10%;
+left: 124px;
+width: 566px;
+height: 363px;
+/* background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; */
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 1;
+position: relative;
+}
+
+.Pic-1{
+    top: 15px;
+    left: 20px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('assets/wake_up.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    position: relative;   
+}
+
+.v1{
+    top: 25px;
+    left: 35px;
+    width: 0px;
+    height: 35px;
+    border: 1px solid #C2C2C2;
+    opacity: 1;
+    position: relative;    
+}
+
+.Pic-2{
+    top: 35px;
+    left: 20px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('assets/lunch_time.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    position: relative;   
+}
+
+.v2{
+    top: 50px;
+    left: 35px;
+    width: 0px;
+    height: 35px;
+    border: 1px solid #C2C2C2;
+    opacity: 1;
+    position: relative;    
+}
+
+.Pic-3{
+    top: 65px;
+    left: 20px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('assets/nap_time.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    position: relative;   
+}
+
+.v3{
+    top: 80px;
+    left: 35px;
+    width: 0px;
+    height: 35px;
+    border: 1px solid #C2C2C2;
+    opacity: 1;
+    position: relative;    
+}
+
+.Pic-4{
+    top: 95px;
+    left: 20px;
+    width: 34px;
+    height: 34px;
+    background: transparent url('assets/nap_time.png') 0% 0% no-repeat padding-box;
+    opacity: 1; 
+    position: relative;   
+}
+
+
+.Morning{
+    top: 18px;
+    left: 75px;
+    width: 480px;
+    height: 50px;
+    text-align: left;
+    font: normal normal normal 18px/28px 'Space Grotesk';
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;  
+    position: absolute;  
+}
+
+#MorningTimeSelector{
+top: 0px;
+left: 35px;
+width: 281px;
+height: 45px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 4px;
+opacity: 1;
+position: relative;
+}
+
+.Afternoon{
+    top: 112px;
+    left: 75px;
+    width: 480px;
+    height: 50px;
+    text-align: left;
+    font: normal normal normal 18px/28px 'Space Grotesk';
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;  
+    position: absolute;  
+}
+
+#AfternoonTimeSelector{
+    top: 0px;
+    left: 55px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    position: relative;
+    }
+
+.Evening{
+    top: 212px;
+    left: 75px;
+    width: 480px;
+    height: 50px;
+    text-align: left;
+    font: normal normal normal 18px/28px 'Space Grotesk';
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;  
+    position: absolute;  
+}
+
+#EveningTimeSelector{
+    top: 0px;
+    left: 75px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    position: relative;
+    }
+
+.Night{
+    top: 312px;
+    left: 75px;
+    width: 480px;
+    height: 50px;
+    text-align: left;
+    font: normal normal normal 18px/28px 'Space Grotesk';
+    letter-spacing: 0px;
+    color: #3D087B;
+    opacity: 1;  
+    position: absolute;  
+}
+
+#NightTimeSelector{
+    bottom: 10px;
+    left: 63px;
+    width: 281px;
+    height: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    position: relative;
+    }
+
+.set-alarm{
+top: 675px;
+left: 134px;
+width: 299px;
+height: 50px;
+background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) no-repeat padding-box;
+border-radius: 4px;
+/* border-top-color: #3D087B;
+border-bottom-color: #3D087B;
+border-left-color: #3D087B;
+border-right-color: #3D087B; */
+border: 1px solid #3D087B;
+opacity: 1;
+position: absolute;
+}
+
+.button-text{
+top: 634px;
+left: 218px;
+width: 111px;
+height: 31px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-38) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal 500 24px/38px 'Poppins';
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
