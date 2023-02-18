@@ -260,7 +260,7 @@ opacity: 1;
 position: relative;
 }
 
-.quotes{
+#quotes{
 margin-top: 40px;
 margin-left: 21px;
 width: 542px;
@@ -277,7 +277,7 @@ opacity: 1;
 /* position: relative; */
 }
 
-.timer-picture{
+#timer-picture{
 top: 385px;
 left: 715px;
 width: 536px;
@@ -488,7 +488,7 @@ opacity: 1;
 position: absolute;
 }
 
-.button-text{
+#button-text{
 top: 634px;
 left: 218px;
 width: 111px;
@@ -501,4 +501,57 @@ font: normal normal 500 24px/38px 'Poppins';
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+}
+
+#DynamicBlock1{
+top: 665px;
+left: 445px;
+width: 240px;
+height: 105px;
+padding: 5px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+opacity: 0.23;
+position: absolute;
+
+}
+
+#DynamicBlock2{
+    top: 550px;
+    left: 130px;
+    width: 566px;
+    height: 103px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 0.23;  
+    position: absolute;  
+}
+
+#Block1-message{
+    top: 670px;
+    left: 455px;
+    width: 233px;
+    height: 105px;
+    text-align: left;
+    font: normal normal bold 15px/25px 'Space Grotesk';
+    letter-spacing: 0px;
+    color: #F25CFE;
+    opacity: 1;
+    position: absolute;
+    }
+
+#Block2-message{
+top: 589px;
+left: 149px;
+width: 534px;
+height: 34px;
+text-align: left;
+font: normal normal 900 57px/24px 'Space Grotesk';
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+position: absolute;
 }
