@@ -24,6 +24,7 @@ function clock(){
         dayNight.innerHTML = "AM";
     }
     else{
+        hours.innerHTML = time.getHours() - 12;
         dayNight.innerHTML = "PM";
     }
 }
