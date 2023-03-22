@@ -23,10 +23,20 @@ function clock(){
     {
         dayNight.innerHTML = "AM";
     }
-    else{
-        hours.innerHTML = time.getHours() - 12;
+
+    else if(time.getHours() == 12)
+    {
         dayNight.innerHTML = "PM";
     }
+
+    else{
+        h = time.getHours() - 12;
+        h = ("0" + h).slice(-2);
+        hours.innerHTML = h;
+        dayNight.innerHTML = "PM";
+    }
+
+
 }
 
 setInterval(clock,1000);
